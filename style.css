@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+div#header {
+    background: linear-gradient(to left, #0B0B45, #222222, #0B0B45);
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+div#header h1 {
+    font-weight: 700;
+    color: lightcyan;
+    margin: 0;
+}
+
+div#countdown {
+    background-color: lightslategray;
+    width: 80%;
+    border: 1px solid silver;
+    padding-bottom: 50px;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+
+}
+
+div#countdown p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+p#countdown-display span {  
+    border: 1px solid orange;
+    background-color: lightgray;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    margin: auto;
+    margin-top: 10px;
+}
+
+span b {
+    margin-right: 10px;
+    color: green;
+    font-size: 25px;
+}
+
+div#countdown button {
+    width: 15%;
+    margin: 9%;
+    margin-top: 0;
+    margin-bottom: 0;
+    float: left;
+}
+
+button#start {
+    background-color:lime;
+}
+
+button#stop {
+    background-color: red;
+}
+
+button#set {
+    background-color: yellow;
+}
